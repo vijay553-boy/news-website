@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a815086365.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+          <nav class="shadow">
+            <div class="logo">
+              <h1>The Hindu</h1>
+            </div>
+            
+            <ul id="menuList">
+              <button class="search"><a href="search.html"><span class="fa fa-search"></span></a></button>
+                <li><a href="#">Karnataka</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Live</a></li>
+            </ul>
+            <button class="btnn"><a href="login.html">Login<i class="fa-regular fa-user"></i></a></button>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"onclick="toggleMenu()"></i>
+            </div>
+
+          <script>
+            let menuList = document.getElementById("menuList")
+            menuList.style.maxHeight = "0px";
+
+            function toggleMenu(){
+              if(menuList.style.maxHeight == "0px")
+              {
+                menuList.style.maxHeight = "300px";
+              }
+              else{
+                menuList.style.maxHeight = "0px";
+              }
+            }
+
+          </script>
+
+          
+  </body>  
+</html>

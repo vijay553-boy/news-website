@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+    height: 120px;
+}
+
+.shadow{
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: fixed;
+    font-size: 20px;
+    margin-bottom: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-icon{
+    display: none;
+    position: none;
+}
+
+.menu-icon i{
+    color: none;
+    font-size: 30px;
+}
+
+@media (max-width:600px) {
+    nav ul{
+        position: fixed;
+        top: 100px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: white;
+        background-size: cover;
+        gap: 0;
+        overflow: hidden;
+        margin-left: -px;
+    }
+    nav ul li{
+        padding: px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 220px;
+        margin-top: 50px
+    }
+    .menu-icon2{
+        display: ;
+    }
+    .logo{
+        margin-right: 200px;
+    }
+    
+
+}
+
+.btnn{
+    margin-bottom: 75px;
+    margin-left: 1150px;
+    width: 240px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-size: none;
+}
+
+.btnn a:hover{
+    background: white;
+}
+.logo{
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-left: 500px;
+}
+
+.menu-icon2{
+    position: fixed;
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.search{
+    position: fixed;
+    margin-left: -130px;
+    border: none;
+}
+
+.search span{
+    height: 20px;
+    width: 100px;
+    background: white;
+}
