@@ -83,6 +83,9 @@ nav ul li a{
     .logo{
         margin-right: 200px;
     }
+    nav{
+        width: 1000px;
+    }
     
 
 }
