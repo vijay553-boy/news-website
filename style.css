@@ -66,7 +66,7 @@ nav ul li a{
         background-size: cover;
         gap: 0;
         overflow: hidden;
-        margin-left: -px;
+        margin-left: px;
     }
     nav ul li{
         padding: px;
@@ -89,7 +89,7 @@ nav ul li a{
 
 .btnn{
     margin-bottom: 75px;
-    margin-left: 1150px;
+    margin-left: -90px;
     width: 240px;
     height: 40px;
     font-size: 20px;
