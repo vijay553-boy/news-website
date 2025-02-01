@@ -18,11 +18,13 @@ nav{
     background: white;
     position: relative;
     height: 120px;
+    width: 1370px;
 }
 
 .shadow{
-    position: relative;
+    position: fixed;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
+    width: 1370px;
 }
 
 nav ul{
@@ -80,11 +82,17 @@ nav ul li a{
     .menu-icon2{
         display: ;
     }
-    .logo{
-        margin-right: 200px;
+    .logo h1{
+        position: fixed;
+        margin-left: -500px;
+        width: 0;
     }
     nav{
         width: 1000px;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
     }
     
 
