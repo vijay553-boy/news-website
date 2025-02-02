@@ -76,7 +76,7 @@ nav ul li a{
     .menu-icon{
         display: block;
         position: fixed;
-        margin-left: 220px;
+        margin-left: 520px;
         margin-top: 50px
     }
     .menu-icon2{
@@ -85,7 +85,9 @@ nav ul li a{
     .logo h1{
         position: fixed;
         margin-left: -500px;
-        width: 0;
+        width: 0px;
+        font-size: 40px;
+        margin-top: -20px;
     }
     nav{
         width: 1000px;
@@ -94,13 +96,22 @@ nav ul li a{
         height: 100%;
         width: 100%;
     }
+    .btnn{
+        margin-right: 1500px;
+    }
+    .search{
+        margin-top: -75px;
+        font-size: 20px;
+        position: ;
+        margin-left: 250px;
+    }
+    
     
 
 }
 
 .btnn{
     margin-bottom: 75px;
-    margin-left: -90px;
     width: 240px;
     height: 40px;
     font-size: 20px;
@@ -110,7 +121,7 @@ nav ul li a{
     background-color: white;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: ;
     
 }
 
@@ -138,7 +149,7 @@ nav ul li a{
 
 .search{
     position: fixed;
-    margin-left: -130px;
+    margin-left: ;
     border: none;
 }
 
