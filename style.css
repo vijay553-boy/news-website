@@ -22,7 +22,7 @@ nav{
 }
 
 .shadow{
-    position: fixed;
+    position: absolute;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
     width: 1370px;
 }
@@ -47,7 +47,7 @@ nav ul li a{
 }
 
 .menu-icon{
-    display: none;
+    display: ;
     position: none;
 }
 
@@ -56,58 +56,39 @@ nav ul li a{
     font-size: 30px;
 }
 
-@media (max-width:600px) {
+@media only screen and (max-width: 500px) {
     nav ul{
-        position: fixed;
-        top: 100px;
+        position: absolute;
+        top: 70px;
         left: 0;
         right: 0;
         flex-direction: column;
         text-align: center;
         background: white;
-        background-size: cover;
         gap: 0;
-        overflow: hidden;
-        margin-left: px;
     }
     nav ul li{
-        padding: px;
+        padding: 20px;
     }
     .menu-icon{
         display: block;
         position: fixed;
-        margin-left: 520px;
-        margin-top: 50px
+        margin-left: 265px;
+        margin-top: 70px;
     }
-    .menu-icon2{
-        display: ;
-    }
-    .logo h1{
+    .logo{
         position: fixed;
-        margin-left: -500px;
-        width: 0px;
-        font-size: 40px;
-        margin-top: -20px;
-    }
-    nav{
-        width: 1000px;
-    }
-    html,body{
-        height: 100%;
-        width: 100%;
+        margin-right: 700px;
+        font-size: 20px;
+        margin-top: 120px;
+        margin-left: -32px;
     }
     .btnn{
-        margin-right: 1500px;
+        margin-left: 120px;
     }
     .search{
-        margin-top: -75px;
-        font-size: 20px;
-        position: ;
-        margin-left: 250px;
+        margin-top: -30px;
     }
-    
-    
-
 }
 
 .btnn{
@@ -136,8 +117,8 @@ nav ul li a{
 }
 .logo{
     margin-bottom: 50px;
-    font-size: 40px;
-    margin-left: 500px;
+    font-size: px;
+    margin-left: px;
 }
 
 .menu-icon2{
