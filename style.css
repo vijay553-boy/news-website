@@ -31,7 +31,7 @@ nav ul{
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 75px;
     position: fixed;
     font-size: 20px;
     margin-bottom: none;
@@ -58,14 +58,16 @@ nav ul li a{
 
 @media only screen and (max-width: 500px) {
     nav ul{
-        position: absolute;
+        position: fixed;
         top: 70px;
         left: 0;
         right: 0;
         flex-direction: column;
         text-align: center;
-        background: white;
+        background: goldenrod;
+        width: 200px;
         gap: 0;
+        overflow: hidden;
     }
     nav ul li{
         padding: 20px;
@@ -88,6 +90,7 @@ nav ul li a{
     }
     .search{
         margin-top: -30px;
+        margin-left: 130px;
     }
 }
 
